@@ -1,3 +1,7 @@
+import * as dotenv from "dotenv";
+
+dotenv.config();
+
 import jwt from 'jsonwebtoken';
 
 export const generateToken = (id) => {
